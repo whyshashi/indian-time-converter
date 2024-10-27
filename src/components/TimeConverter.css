@@ -1,0 +1,56 @@
+.time-converter {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.indian-time {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.indian-time h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.indian-time p {
+  font-size: 2.5rem;
+  margin: 10px 0 0;
+}
+
+.time-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.time-card {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.time-card:hover {
+  transform: translateY(-5px);
+}
+
+.time-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.time-card p {
+  font-size: 1.5rem;
+  margin: 10px 0 0;
+  color: #4a4a4a;
+}
